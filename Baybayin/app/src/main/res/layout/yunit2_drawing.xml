@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Drawing.Yunit2_Drawing">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="@dimen/_10sdp"
+            tools:ignore="MissingConstraints">
+
+            <androidx.constraintlayout.utils.widget.ImageFilterView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:background="@color/black200"
+                android:cropToPadding="false"
+                android:padding="@dimen/_15sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BaybayiNatin"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_20sdp"
+                android:fontFamily="@font/script_regular"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/_10sdp"/>
+
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Praktis"
+            android:layout_gravity="center"
+            android:textSize="25sp"
+            android:textColor="@color/black200"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginTop="@dimen/_20sdp"/>
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textColor="@color/black200"
+            android:fontFamily="@font/poppins_medium"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+         />
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/eraser"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:background="@color/white"
+                android:onClick="eraser"
+                android:src="@drawable/ic_eraser" />
+
+            <ImageButton
+                android:id="@+id/pencil"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:background="@color/pale_blue"
+                android:onClick="pencil"
+                android:src="@drawable/ic_pencil" />
+
+        </LinearLayout>
+
+        <!--drawing field-->
+        <FrameLayout
+            android:id="@+id/drawContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:padding="15px"
+            android:background="@drawable/container_question_black">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_200sdp"
+                >
+                <include layout="@layout/draw_view"/>
+
+            </FrameLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/back"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:background="@drawable/ic_arrow"
+                android:rotation="180"
+                android:layout_gravity="center"/>
+            <ImageView
+                android:id="@+id/image_container"
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_80sdp"
+                android:background="@drawable/container_question_black"
+                android:padding="@dimen/_10sdp"
+                android:src="@drawable/baybayin_letter_a"
+                android:layout_marginStart="@dimen/_30sdp"
+                android:layout_marginEnd="@dimen/_30sdp"
+                android:layout_gravity="center"/>
+            <ImageButton
+                android:id="@+id/next"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:background="@drawable/ic_arrow"
+                android:layout_gravity="center"
+              />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/nameTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="a"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/black200"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginTop="@dimen/_10sdp"/>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/bumalik"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@drawable/container_buttons_green"
+                android:text="Bumalik"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppins_medium"
+                android:layout_gravity="start|center"
+                />
+            <Button
+                android:id="@+id/saved"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@drawable/container_buttons_green"
+                android:text="Suriin"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppins_medium"
+                android:layout_gravity="end|center"
+                />
+        </FrameLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

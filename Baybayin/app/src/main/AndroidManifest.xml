@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/bayascript_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/bayascript_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Baybayin"
+        tools:targetApi="31">
+        <activity
+            android:name=".Quiz.Yunit4_Identify_baybayin"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Intro_page"
+            android:exported="false" />
+        <activity
+            android:name=".Drawing.Yunit3_Drawing"
+            android:exported="false" />
+        <activity
+            android:name=".Quiz.Yunit3_Pagsulat"
+            android:exported="false" />
+        <activity
+            android:name=".Quiz.Yunit3_Quiz_Ya"
+            android:exported="false" />
+        <activity
+            android:name=".Quiz.Yunit3_Quiz_TaWa"
+            android:exported="false" />
+        <activity
+            android:name=".Quiz.Yunit3_Quiz_RaSa"
+            android:exported="false" />
+        <activity
+            android:name=".Lessons.Yunit3_Lesson_Ya"
+            android:exported="false" />
+        <activity
+            android:name=".Lessons.Yunit3_Lesson_Ta_Wa"
+            android:exported="false" />
+        <activity
+            android:name=".Lessons.Yunit3_Lesson_Ra_Sa"
+            android:exported="false" />
+        <activity
+            android:name=".Quiz.Yunit3_Quiz_Ngapa"
+            android:exported="false" />
+        <activity
+            android:name=".Lessons.Yunit3_Lesson_Nga_Pa"
+            android:exported="false" />
+        <activity
+            android:name=".Quiz.Yunit3_Quiz_Mana"
+            android:exported="false" />
+        <activity
+            android:name=".Lessons.Yunit3_Lesson_Ma_Na"
+            android:exported="false" />
+        <activity
+            android:name=".Quiz.Yunit3_Quiz_HaLa"
+            android:exported="false" />
+        <activity
+            android:name=".Lessons.Yunit3_Lesson_Ha_La"
+            android:exported="false" />
+        <activity
+            android:name=".Quiz.Yunit3_Quiz_DaGa"
+            android:exported="false" />
+        <activity
+            android:name=".Lessons.Yunit3_Lesson_Da_Ga"
+            android:exported="false" />
+        <activity
+            android:name=".Quiz.Yunit3_Quiz_BaKa"
+            android:exported="false" />
+        <activity
+            android:name=".Lessons.Yunit3_Lesson_Ba_Ka"
+            android:exported="false" />
+        <activity
+            android:name=".Lessons.Yunit3_Lesson_Introduction"
+            android:exported="false" />
+        <activity
+            android:name=".Drawing.Yunit2_Drawing"
+            android:exported="false" />
+        <activity
+            android:name=".Quiz.Yunit2_Quiz"
+            android:exported="false" />
+        <activity
+            android:name=".Quiz.Yunit2_Pagsulat"
+            android:exported="false" />
+        <activity
+            android:name=".Lessons.Yunit2_Lesson_Patinig"
+            android:exported="false" />
+        <activity
+            android:name=".Lessons.Yunit2_Lesson_Introduction"
+            android:exported="false" />
+        <activity
+            android:name=".Quiz_Note.Quiz_Note"
+            android:exported="false" />
+        <activity
+            android:name=".Quiz.Yunit1_Quiz"
+            android:exported="false" />
+        <activity
+            android:name=".Lessons.Yunit1_Lesson_Kahalagahan"
+            android:exported="false" />
+        <activity
+            android:name=".Lessons.Yunit1_Lesson_Pagsisimula"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.SplashActivity"
+            android:exported="true"
+            tools:ignore="DuplicateActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.MainActivity"
+            android:exported="true"
+            tools:ignore="DuplicateActivity" />
+    </application>
+
+</manifest>

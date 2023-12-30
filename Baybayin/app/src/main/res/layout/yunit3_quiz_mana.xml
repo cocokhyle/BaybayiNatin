@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Quiz.Yunit3_Quiz_Mana">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="@dimen/_10sdp"
+            tools:ignore="MissingConstraints">
+
+            <androidx.constraintlayout.utils.widget.ImageFilterView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:background="@color/black200"
+                android:cropToPadding="false"
+                android:padding="@dimen/_15sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BaybayiNatin"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_20sdp"
+                android:fontFamily="@font/script_regular"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/_10sdp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:orientation="vertical">
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/qustion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black200"
+                        android:text="@string/yunit3_quiz4_question1"
+                        android:textSize="18sp"
+                        android:fontFamily="@font/poppins_medium"/>
+
+                    <Button
+                        android:id="@+id/choices_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_70sdp"
+                        android:background="@drawable/container_question_black"
+                        android:text="@string/yunit3_quiz4_q2_choice1"
+                        android:textSize="18sp"
+                        android:textColor="@color/black200"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:paddingStart="@dimen/_5sdp"
+                        android:paddingEnd="@dimen/_5sdp"
+                        />
+                    <Button
+                        android:id="@+id/choices_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_70sdp"
+                        android:background="@drawable/container_question_black"
+                        android:text="@string/yunit3_quiz4_q2_choice2"
+                        android:textSize="18sp"
+                        android:textColor="@color/black200"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:paddingStart="@dimen/_5sdp"
+                        android:paddingEnd="@dimen/_5sdp"
+                        />
+                    <Button
+                        android:id="@+id/choices_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_70sdp"
+                        android:background="@drawable/container_question_black"
+                        android:text="@string/yunit3_quiz4_q2_choice3"
+                        android:textSize="18sp"
+                        android:textColor="@color/black200"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:paddingStart="@dimen/_5sdp"
+                        android:paddingEnd="@dimen/_5sdp"
+                        />
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="@dimen/_70sdp"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/suriin"
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_35sdp"
+                            android:background="@drawable/container_buttons_grey"
+                            android:text="Suriin"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/poppins_medium"
+                            android:layout_gravity="end"
+                            android:layout_marginBottom="@dimen/_20sdp"
+                            />
+                    </FrameLayout>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="BottomNavigationTextActive">
+        <item name="fontFamily">@font/poppins_medium</item>
+    </style>
+
+
+    <style name="BottomNavigationTextInactive">
+        <item name="fontFamily">@font/poppins_medium</item>
+    </style>
+
+    <style name="CustomScrollBarTheme">
+        <item name="android:scrollbarSize">3dp</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scrollbar_style</item>
+    </style>
+
+
+
+
+
+</resources>

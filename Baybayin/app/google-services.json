@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "207010202654",
+    "project_id": "ceremonial-tea-390309",
+    "storage_bucket": "ceremonial-tea-390309.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207010202654:android:c8d4ccbbc42069e0625a0f",
+        "android_client_info": {
+          "package_name": "com.google.android.gms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207010202654-1as9ivgal70g05plgf37pmreuctlr733.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPk6-u2I7hMYU8S1Q0-VpU3V3UdT4ugkQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "207010202654-1as9ivgal70g05plgf37pmreuctlr733.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

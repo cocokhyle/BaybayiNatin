@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Quiz.Yunit2_Pagsulat">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="@dimen/_10sdp"
+            tools:ignore="MissingConstraints">
+
+            <androidx.constraintlayout.utils.widget.ImageFilterView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:background="@color/black200"
+                android:cropToPadding="false"
+                android:padding="@dimen/_15sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BaybayiNatin"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_20sdp"
+                android:fontFamily="@font/script_regular"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/_10sdp"/>
+
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Praktis"
+            android:layout_gravity="center"
+            android:textSize="25sp"
+            android:textColor="@color/black200"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginTop="@dimen/_20sdp"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_gravity="center"
+            style="@style/CustomScrollBarTheme"
+            android:layout_marginBottom="@dimen/_20sdp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:orientation="vertical">
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="@dimen/_550sdp"
+                    android:layout_height="@dimen/_250sdp"
+                    android:layout_marginTop="@dimen/_minus60sdp"
+                    android:layout_marginBottom="@dimen/_minus60sdp"
+                    android:src="@drawable/bayascript_draw"
+                    android:layout_gravity="center"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black200"
+                    android:textSize="18sp"
+                    android:text="Sa leksyon na ito, maghehensayokang magsulat ng mga patinig!"
+                    android:fontFamily="@font/poppins_regular"
+                    android:textAlignment="center"
+                    android:layout_marginTop="@dimen/_20sdp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black200"
+                    android:textSize="18sp"
+                    android:text="Ito ay isang hensayopa lamang sa paghahandasa susunod na pagsusulit."
+                    android:fontFamily="@font/poppins_regular"
+                    android:textAlignment="center"
+                    android:layout_marginTop="@dimen/_20sdp"/>
+
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/_100sdp"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:orientation="horizontal">
+                    <Button
+                        android:id="@+id/bumalik"
+                        android:layout_width="@dimen/_100sdp"
+                        android:layout_height="@dimen/_35sdp"
+                        android:background="@drawable/container_buttons_green"
+                        android:text="Bumalik"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/poppins_medium"
+                        android:layout_marginBottom="@dimen/_20sdp"
+                        />
+                    <Button
+                        android:id="@+id/susunod"
+                        android:layout_width="@dimen/_100sdp"
+                        android:layout_height="@dimen/_35sdp"
+                        android:background="@drawable/container_buttons_green"
+                        android:text="Susunod"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/poppins_medium"
+                        android:layout_gravity="end"
+                        android:layout_marginBottom="@dimen/_20sdp"
+                        />
+                </FrameLayout>
+            </LinearLayout>
+        </ScrollView>
+        </FrameLayout>
+    </LinearLayout>
+
+</RelativeLayout>

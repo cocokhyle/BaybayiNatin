@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Fragment.Profile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_130sdp"
+            android:background="@color/darkblue"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/backBtn"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:background="@drawable/ic_back"
+                android:layout_margin="@dimen/_10sdp"/>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BaybayiNatin"
+                    android:textSize="@dimen/_30sdp"
+                    android:fontFamily="@font/script_regular"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    />
+            </FrameLayout>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingEnd="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_minus20sdp"
+        android:background="@drawable/scrollview_container"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Antas ng katatasan"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:textAllCaps="true"
+            android:layout_gravity="center"
+            android:textColor="@color/black200"
+            android:fontFamily="@font/poppins_bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_20sdp">
+                <ProgressBar
+                    android:id="@+id/Progress_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_8sdp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="center"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:progressDrawable="@drawable/progress_bar" />
+                
+                <ImageView
+                    android:id="@+id/circle1"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:background="@drawable/circle_container"
+                    android:layout_gravity="start|center_vertical"/>
+                <ImageView
+                    android:id="@+id/circle2"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:background="@drawable/circle_container"
+                    android:layout_gravity="center"/>
+                <ImageView
+                    android:id="@+id/circle3"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:background="@drawable/circle_container"
+                    android:layout_gravity="end"/>
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black200"
+                    android:text="BAGUHAN"
+                    android:fontFamily="@font/poppins_bold"
+                    android:textSize="16sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black200"
+                    android:text="NOBISIYO"
+                    android:fontFamily="@font/poppins_bold"
+                    android:textSize="16sp"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black200"
+                    android:text="INTERMEDYA"
+                    android:fontFamily="@font/poppins_bold"
+                    android:textSize="16sp"
+                    android:layout_gravity="end"/>
+            </FrameLayout>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Antas ng Letrang Nasulat"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textAllCaps="true"
+            android:layout_gravity="center"
+            android:textColor="@color/black200"
+            android:fontFamily="@font/poppins_bold"/>
+
+        <!--container-->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/container_stroke_grey"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:paddingStart="@dimen/_20sdp"
+            android:paddingEnd="@dimen/_20sdp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_80sdp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:textSize="16sp"
+                    android:text="Tamang Nasulat"
+                    android:textColor="@color/black200"
+                    android:fontFamily="@font/poppins_bold"/>
+                <TextView
+                    android:id="@+id/letrangNasulat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:textSize="18sp"
+                    android:text="0 / 16"
+                    android:textColor="@color/black200"
+                    android:fontFamily="@font/poppins_bold"
+                    android:layout_gravity="center"/>
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="5px"
+                android:layout_height="match_parent"
+                android:background="@color/grey"
+               android:layout_margin="@dimen/_10sdp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:textSize="16sp"
+                    android:text="Kahustuhan"
+                    android:textColor="@color/black200"
+                    android:fontFamily="@font/poppins_bold"/>
+                <TextView
+                    android:id="@+id/percentage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:textSize="18sp"
+                    android:text="10"
+                    android:textColor="@color/black200"
+                    android:fontFamily="@font/poppins_bold"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        </FrameLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Antas ng Natutunan"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textAllCaps="true"
+            android:layout_gravity="center"
+            android:textColor="@color/black200"
+            android:fontFamily="@font/poppins_bold"/>
+        <!--yunit 1-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black200"
+            android:text="Yunit 1: Panimula"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginTop="@dimen/_10sdp"/>
+        <ProgressBar
+            android:id="@+id/yunit1Progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:layout_alignParentBottom="true"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:progressDrawable="@drawable/progress_bar" />
+        <!--yunit 2-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black200"
+            android:text="Yunit 2: Patinig"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginTop="@dimen/_20sdp"/>
+        <ProgressBar
+            android:id="@+id/yunit2Progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:layout_alignParentBottom="true"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:progressDrawable="@drawable/progress_bar" />
+
+        <!--yunit 3-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black200"
+            android:text="Yunit 3: Katinig"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginTop="@dimen/_20sdp"/>
+        <ProgressBar
+            android:id="@+id/yunit3Progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:layout_alignParentBottom="true"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:progressDrawable="@drawable/progress_bar" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black200"
+            android:text="Yunit 4: Pagkilala sa mga salita"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginTop="@dimen/_20sdp"/>
+        <ProgressBar
+            android:id="@+id/yunit4Progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:layout_alignParentBottom="true"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:progressDrawable="@drawable/progress_bar" />
+
+    </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

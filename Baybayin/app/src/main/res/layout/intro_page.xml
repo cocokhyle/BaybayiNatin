@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Intro_page">
+
+    <!--Parent Container-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/pale_blue"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Maligayang Pagdating!"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_medium"
+            android:layout_marginTop="@dimen/_50sdp"/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_50sdp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+                <!--1-->
+                <FrameLayout
+                    android:layout_width="@dimen/_250sdp"
+                    android:layout_height="@dimen/_350sdp"
+                    android:background="@drawable/intro_container"
+                    android:padding="@dimen/_15sdp"
+                    android:layout_marginStart="@dimen/_25sdp">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Narinig mo na ba ang Baybayin?"
+                            android:textAlignment="center"
+                            android:layout_gravity="center"
+                            android:textSize="16sp"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/poppins_bold"
+                            android:layout_marginTop="@dimen/_20sdp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Ang Baybayin ang sinaunang Sistema ng Pagsulat ng mga Pilipino noong panahon bago pa dumating ang mga kasila"
+                            android:textAlignment="center"
+                            android:layout_gravity="center"
+                            android:textSize="16sp"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/poppins_medium"
+                            android:layout_marginTop="@dimen/_20sdp"
+                            android:justificationMode="inter_word"/>
+                    </LinearLayout>
+
+                </FrameLayout>
+
+                <!--2-->
+                <FrameLayout
+                    android:layout_width="@dimen/_250sdp"
+                    android:layout_height="@dimen/_350sdp"
+                    android:background="@drawable/intro_container"
+                    android:padding="@dimen/_15sdp"
+                    android:layout_marginStart="@dimen/_25sdp">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Ano ang Baybayin?"
+                            android:textAlignment="center"
+                            android:layout_gravity="center"
+                            android:textSize="16sp"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/poppins_bold"
+                            android:layout_marginTop="@dimen/_20sdp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Ang Baybayin ay tinatawag na sinaunang alpabeto ng mga Pilipino bago pa man dumating ang mga Espanyol at maituro ang alpabetong Romano"
+                            android:textAlignment="center"
+                            android:layout_gravity="center"
+                            android:textSize="16sp"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/poppins_medium"
+                            android:layout_marginTop="@dimen/_20sdp"
+                            android:justificationMode="inter_word"/>
+                    </LinearLayout>
+
+                </FrameLayout>
+
+                <!--3-->
+                <FrameLayout
+                    android:layout_width="@dimen/_250sdp"
+                    android:layout_height="@dimen/_350sdp"
+                    android:background="@drawable/intro_container"
+                    android:padding="@dimen/_15sdp"
+                    android:layout_marginStart="@dimen/_25sdp">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Baybayin o Alibata?"
+                            android:textAlignment="center"
+                            android:layout_gravity="center"
+                            android:textSize="16sp"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/poppins_bold"
+                            android:layout_marginTop="@dimen/_20sdp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:text="Mali ang tawag mo na Alibata. Ang tama ay Baybayin"
+                            android:layout_gravity="center"
+                            android:textSize="16sp"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/poppins_medium"
+                            android:layout_marginTop="@dimen/_20sdp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Ang alibata ay ngalang inimbento ng isang gurong inakalang hango sa Arabe an gating sinaunang paraan ng pasusulat. Sumakatuwid, ang tunay na ngalan ay baybayin."
+                            android:textAlignment="center"
+                            android:layout_gravity="center"
+                            android:textSize="16sp"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/poppins_medium"
+                            android:layout_marginTop="@dimen/_20sdp"
+                            android:justificationMode="inter_word"/>
+                    </LinearLayout>
+
+                </FrameLayout>
+
+                <!--4-->
+                <FrameLayout
+                    android:layout_width="@dimen/_250sdp"
+                    android:layout_height="@dimen/_350sdp"
+                    android:background="@drawable/intro_container"
+                    android:padding="@dimen/_15sdp"
+                    android:layout_marginStart="@dimen/_25sdp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Pagsusulit"
+                            android:textAlignment="center"
+                            android:layout_gravity="center"
+                            android:textSize="16sp"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/poppins_bold" />
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="@dimen/_100sdp"
+                                android:layout_height="@dimen/_170sdp"
+                                android:src="@drawable/intro_tama"/>
+                            <ImageView
+                                android:layout_width="@dimen/_100sdp"
+                                android:layout_height="@dimen/_170sdp"
+                                android:src="@drawable/intro_mali"
+                                />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Sa tamang kasagutan, itinuturing na wasto ang iyong natanggap na sagot, na kinakatawan ng kulay asul. Sa kabilang dako, ang kulay pula naman ay nagpapahayag ng mali ang iyong sagot."
+                            android:textAlignment="center"
+                            android:layout_gravity="center"
+                            android:textSize="14sp"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/poppins_medium"
+                            android:layout_marginTop="@dimen/_20sdp"
+                            android:justificationMode="inter_word"/>
+                    </LinearLayout>
+
+                </FrameLayout>
+
+                <!--5-->
+                <FrameLayout
+                    android:layout_width="@dimen/_250sdp"
+                    android:layout_height="@dimen/_350sdp"
+                    android:background="@drawable/intro_container"
+                    android:padding="@dimen/_15sdp"
+                    android:layout_marginStart="@dimen/_25sdp"
+                    android:layout_marginEnd="@dimen/_25sdp"
+                    android:layout_marginBottom="@dimen/_10sdp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Pagsulat ng Patinig at Katinig"
+                            android:textAlignment="center"
+                            android:layout_gravity="center"
+                            android:textSize="16sp"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/poppins_bold" />
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="@dimen/_100sdp"
+                                android:layout_height="@dimen/_170sdp"
+                                android:src="@drawable/intro_tama_drawing"/>
+                            <ImageView
+                                android:layout_width="@dimen/_100sdp"
+                                android:layout_height="@dimen/_170sdp"
+                                android:src="@drawable/intro_mali_drawing"
+                                />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Sa tamang kasagutan, itinuturing na wasto ang iyong isinulat, na kinakatawan ng kulay asul. Sa kabilang dako, ang kulay pula naman ay nagpapahayag ng mali ang iyong isinulat."
+                            android:textAlignment="center"
+                            android:layout_gravity="center"
+                            android:textSize="14sp"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/poppins_medium"
+                            android:layout_marginTop="@dimen/_20sdp"
+                            android:justificationMode="inter_word"/>
+                    </LinearLayout>
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/_10sdp">
+            <Button
+                android:id="@+id/magsimulaBtn"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@drawable/container_button_blue"
+                android:text="Magsimula"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppins_medium"
+                android:layout_gravity="end|center_vertical"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:elevation="5dp"
+                />
+        </FrameLayout>
+    </LinearLayout>
+
+</RelativeLayout>

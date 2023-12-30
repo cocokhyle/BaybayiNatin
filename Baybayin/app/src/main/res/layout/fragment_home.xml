@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.Home">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_130sdp"
+            android:padding="@dimen/_10sdp"
+            android:background="@color/darkblue"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/profileBtn"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:background="@drawable/ic_profile"
+                android:layout_margin="@dimen/_10sdp"
+                android:layout_gravity="end"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="BaybayiNatin"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/_30sdp"
+                    android:fontFamily="@font/script_regular"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="@dimen/_minus10sdp"
+                    />
+
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_minus20sdp"
+            android:background="@drawable/scrollview_container">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        style="@style/CustomScrollBarTheme"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Yunit 1 : Kasaysayan ng Bayan"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:textAllCaps="false"
+            android:textColor="@color/black200"
+            android:fontFamily="@font/poppins_bold"/>
+
+        <!--yunit 1.1-->
+        <FrameLayout
+            android:id="@+id/Pagsisimula"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_70sdp"
+            android:paddingStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/container_green">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Pagsisimula"
+                android:layout_gravity="center_vertical"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppins_bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:layout_gravity="center_vertical"
+                android:text="Pagtalakay sa kasaysayan ng Baybayin"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppins_medium"/>
+
+        </LinearLayout>
+        </FrameLayout>
+        <!--yunit 1.2-->
+        <FrameLayout
+            android:id="@+id/Kahalagahan"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_70sdp"
+            android:paddingStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/container_grey">
+            <TextView
+                android:id="@+id/yunit1_Score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:layout_gravity="end"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppins_bold"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text="Kahalagahan ng Baybayin"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/poppins_bold"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_gravity="center_vertical"
+                    android:text="Kahalagahan ng Baybayin sa kultura ng pilinas"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_medium"/>
+
+            </LinearLayout>
+        </FrameLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Yunit 2 : Patinig"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textAllCaps="false"
+            android:textColor="@color/black200"
+            android:fontFamily="@font/poppins_bold"/>
+
+        <!--yunit 2.1-->
+        <FrameLayout
+            android:id="@+id/yunit2_intro"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_70sdp"
+            android:paddingStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/container_grey">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="Introduksyon"
+                    android:layout_gravity="center_vertical"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_gravity="center_vertical"
+                    android:text="Introduction tungkul sa mga patinig"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_medium"/>
+
+            </LinearLayout>
+        </FrameLayout>
+        <!--yunit 2.2-->
+        <FrameLayout
+            android:id="@+id/yunit2_patinig"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_70sdp"
+            android:paddingStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/container_grey">
+            <TextView
+                android:id="@+id/yunit2_Score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:layout_gravity="end"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppins_bold"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="Mga patinig"
+                    android:layout_gravity="center_vertical"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_gravity="center_vertical"
+                    android:text="Pagtalakay sa tatlong patinig sa Baybayin"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_medium"/>
+
+            </LinearLayout>
+        </FrameLayout>
+        <!--yunit 2.3-->
+        <FrameLayout
+            android:id="@+id/yunit2_pagsulatPatinig"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_70sdp"
+            android:paddingStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/container_grey">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="Pagsulat ng patinig"
+                    android:layout_gravity="center_vertical"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_gravity="center_vertical"
+                    android:text="Pagsulat ng mga patinig"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_medium"/>
+
+            </LinearLayout>
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Yunit 3 : Pagkilala sa katinig"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textAllCaps="false"
+            android:textColor="@color/black200"
+            android:fontFamily="@font/poppins_bold"/>
+
+        <!--yunit 3.1-->
+        <FrameLayout
+            android:id="@+id/yunit3Intro"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_70sdp"
+            android:paddingStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/container_grey">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="Introduksyon"
+                    android:layout_gravity="center_vertical"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_gravity="center_vertical"
+                    android:text="Introduction tungkul sa mga katinig"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_medium"/>
+
+            </LinearLayout>
+        </FrameLayout>
+        <!--yunit 3.2-->
+        <FrameLayout
+            android:id="@+id/yunit3Baka"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_70sdp"
+            android:paddingStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/container_grey">
+            <TextView
+                android:id="@+id/yunit3_1_Score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:layout_gravity="end"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppins_bold"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="Ba-Ka"
+                    android:layout_gravity="center_vertical"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_gravity="center_vertical"
+                    android:text="Pagtukoy at pagsulat ng mga katinig na BA at KA"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_medium"/>
+
+            </LinearLayout>
+        </FrameLayout>
+        <!--yunit 3.3-->
+        <FrameLayout
+            android:id="@+id/yunit3Daga"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_70sdp"
+            android:paddingStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/container_grey">
+            <TextView
+                android:id="@+id/yunit3_2_Score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:layout_gravity="end"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppins_bold"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="Da-Ga"
+                    android:layout_gravity="center_vertical"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_gravity="center_vertical"
+                    android:text="Pagtukoy at pagsulat ng mga katinig na DA at GA"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_medium"/>
+
+            </LinearLayout>
+        </FrameLayout>
+
+        <!--yunit 3.4-->
+        <FrameLayout
+            android:id="@+id/yunit3Hala"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_70sdp"
+            android:paddingStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/container_grey">
+            <TextView
+                android:id="@+id/yunit3_3_Score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:layout_gravity="end"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppins_bold"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text=" Ha-La"
+                    android:layout_gravity="center_vertical"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_gravity="center_vertical"
+                    android:text="Pagtukoy at pagsulat ng mga katinig na HA at LA"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_medium"/>
+
+            </LinearLayout>
+        </FrameLayout>
+
+        <!--yunit 3.5-->
+        <FrameLayout
+            android:id="@+id/yunit3Mana"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_70sdp"
+            android:paddingStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/container_grey">
+            <TextView
+                android:id="@+id/yunit3_4_Score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:layout_gravity="end"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppins_bold"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text=" Ma-Na"
+                    android:layout_gravity="center_vertical"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_gravity="center_vertical"
+                    android:text="Pagtukoy at pagsulat ng mga katinig na MA at NA"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_medium"/>
+
+            </LinearLayout>
+        </FrameLayout>
+
+        <!--yunit 3.6-->
+        <FrameLayout
+            android:id="@+id/yunit3Ngapa"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_70sdp"
+            android:paddingStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/container_grey">
+            <TextView
+                android:id="@+id/yunit3_5_Score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:layout_gravity="end"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppins_bold"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text=" Nga-Pa"
+                    android:layout_gravity="center_vertical"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_gravity="center_vertical"
+                    android:text="Pagtukoy at pagsulat ng mga katinig na NGA at PA"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_medium"/>
+
+            </LinearLayout>
+        </FrameLayout>
+
+        <!--yunit 3.7-->
+        <FrameLayout
+            android:id="@+id/yunit3Rasa"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_70sdp"
+            android:paddingStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/container_grey">
+            <TextView
+                android:id="@+id/yunit3_6_Score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:layout_gravity="end"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppins_bold"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="Ra-Sa"
+                    android:layout_gravity="center_vertical"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_gravity="center_vertical"
+                    android:text="Pagtukoy at pagsulat ng mga katinig na RA at SA"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_medium"/>
+
+            </LinearLayout>
+        </FrameLayout>
+
+        <!--yunit 3.8-->
+        <FrameLayout
+            android:id="@+id/yunit3Tawa"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_70sdp"
+            android:paddingStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/container_grey">
+            <TextView
+                android:id="@+id/yunit3_7_Score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:layout_gravity="end"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppins_bold"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="Ta-Wa"
+                    android:layout_gravity="center_vertical"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_gravity="center_vertical"
+                    android:text="Pagtukoy at pagsulat ng mga katinig na TA at WA"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_medium"/>
+
+            </LinearLayout>
+        </FrameLayout>
+        <!--yunit 3.9-->
+        <FrameLayout
+            android:id="@+id/yunit3Ya"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_70sdp"
+            android:paddingStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/container_grey">
+            <TextView
+                android:id="@+id/yunit3_8_Score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:layout_gravity="end"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppins_bold"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="Ya"
+                    android:layout_gravity="center_vertical"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_gravity="center_vertical"
+                    android:text="Pagtukoy at pagsulat ng mga katinig na YA"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_medium"/>
+
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/yunit3_pagsulatKatinig"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_70sdp"
+            android:paddingStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/container_grey">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="Pagsulat ng katinig"
+                    android:layout_gravity="center_vertical"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_gravity="center_vertical"
+                    android:text="Pagsulat ng mga katinig"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_medium"/>
+
+            </LinearLayout>
+        </FrameLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Yunit 4 : Mga Baybaying salita"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textAllCaps="false"
+            android:textColor="@color/black200"
+            android:fontFamily="@font/poppins_bold"/>
+
+        <FrameLayout
+            android:id="@+id/yunit4_pagsulatBaybayin"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_70sdp"
+            android:paddingStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:background="@drawable/container_grey">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="Pagkilala"
+                    android:layout_gravity="center_vertical"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_gravity="center_vertical"
+                    android:text="Pagkilala sa mga baybaying salita"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_medium"/>
+
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+    </ScrollView>
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

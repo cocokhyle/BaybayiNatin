@@ -1,0 +1,447 @@
+<resources>
+    <string name="app_name">BaybayiNatin</string>
+
+    <string name="pagkabigo">Mababa ang nakuha mong grado sa pagsusulit na ito. \n Maari kang magpatuloy o bumalik at kumuha ulit</string>
+
+
+    <!--pagsisimula-->
+    <string name="pagsisimula_1">Ang Baybayin script ay ginamit ng malawakan sa Pilipinas bago pa man dumating ang mga Kastila noong ika-16 na siglo.</string>
+    <string name="pagsisimula_2">Ito ay isang silabikong script na kumakatawan sa bawat syllable ng mga salita, hindi sa bawat tunog.</string>
+    <string name="pagsisimula_3">Mayroon itong 17 na pangunahing karakter, 14 dito ay kumakatawan sa mga tunog na kombinasyon ng katinig at tatlo naman ay patinig.</string>
+    <string name="pagsisimula_4">Ito ang sistema ng pagsulat na ginamit para sa Tagalog. Matapos ang pananakop ng mga Espanyol, nahuli ang paggamit ng Baybayin sa bansa dahil sa paggamit ng mga Espanyol na wika at Latin na sistema ng pagsulat.</string>
+
+    <!--kahalagahan-->
+    <string name="kahalagahan_1">Alam mo ba na ang Baybayin ang sinaunang alpabeto ng mga Filipino bago pa dumating ang mga Espanol at maituro ang alpabetong Romano?</string>
+    <string name="kahalagahan_2">Mula ito sa salitang \"baybay\" ng mga Tagalog na nangangahulungan ng lupaing nasa gilid ng dagat at ng \"pagbaybay\"na nangangahulugan ng ispeling.</string>
+    <string name="kahalagahan_3">Ang aplikasyon na ito ay binuo upang makatulong na mapanatili ang local na wika at iskrip sa pamamagitan ng pag uugnay ng tradisyon at teknolohiya.</string>
+    <string name="kahalagahan_4">Nakapaloob dito ang samu’t saring leksyon na makakatulong.</string>
+
+    <!--pagsusulit-->
+    <string name="pagsusulit_1">Mula sa iyong binasa, magkakaroon ka ng maikling pagsusulit!</string>
+    <string name="pagsusulit_2"> Maari kang maghanda para sa pagsusulit tungkol sa Baybayin matapos ang impormasyong nabasa.</string>
+
+    <!--question1-->
+    <string name="question1">Ano ang Baybayin?</string>
+    <string name="q1_choice1">Makabagong sistema nang pagsulat ng mga Filipino</string>
+    <string name="q1_choice2">Sinaunang alpabeto ng mga Filipino bago pa dumating ang mga Kastila</string> <!--correct-->
+    <string name="q1_choice3">Sistema nang pagsulat ng mga Kastila</string>
+
+    <!--question2-->
+    <string name="question2">Ano ang kahulugan ng salitang "pagbaybay"?</string>
+    <string name="q2_choice1">ispeling</string> <!--correct-->
+    <string name="q2_choice2">Lumalangoy sa dagat</string>
+    <string name="q2_choice3">Lumalakad sa dalampasigan</string>
+
+    <!--question3-->
+    <string name="question3">Ano ang ibig sabihin ng "baybay" sa salitang "Baybayin"?</string>
+    <string name="q3_choice1">Sistema nang pagsulat ng mga Kastila</string>
+    <string name="q3_choice2">Lupaing nasa gilid ng dagat</string> <!--correct-->
+    <string name="q3_choice3">Magsulat</string>
+
+    <!--question4-->
+    <string name="question4"> Ilan ang pangunahing karakter sa Baybayin script?</string>
+    <string name="q4_choice1">10</string>
+    <string name="q4_choice2">14</string>
+    <string name="q4_choice3">17</string><!--correct-->
+
+    <!--question5-->
+    <string name="question5"> Anong sistema ng pagsulat ang ginamit para sa Tagalog gamit ang Baybayin script?</string>
+    <string name="q5_choice1">Alpabeto</string>
+    <string name="q5_choice2">Silabiko</string>
+    <string name="q5_choice3">Katinig</string><!--correct-->
+
+
+    <string name="Yunit_2_intro_1">Ang \"patinig\" sa Baybayin ay mga simbolong ginagamit upang tukuyin ang tunog ng mga patinig o vowel sa mga salita.</string>
+    <string name="Yunit_2_intro_2">Sa Baybayin, mayroong tatlong patinig: /a/, /i/, at /u/. Ang mga patinig na ito ay karaniwang nakasulat sa ibaba o sa itaas ng mga katinig, depende sa uri ng patinig na nais gamitin.</string>
+    <string name="Yunit_2_intro_3">Ang bigkas ng /e/ at /i/ ay maaaring magkapalit ayon sa paggamit ng mga katutubo. Ganoon din sa pagggamit ng /o/ at /u/.</string>
+
+    <string name="Yunit_2_patinig_1">Ang karakter na /a/ sa Baybayin ay may anyong titik \"u\" sa alpabetong Tagalog at may dalawang guhit sa kaliwang bahagi. Maaari rin namang isa ang guhit na makikita sa kaliwa.</string>
+    <string name="Yunit_2_patinig_2">Ang /e/ o /i/ sa Baybayin ay bigkas-Tagalog gaya sa tunog ng madiin na \"i\" o malambot na \"e\" ng alpabetong Tagalog. Hindi ito bigkas-Ingles na \"ay\" gaya sa titik \"i\" sa alpabeto.</string>
+    <string name="Yunit_2_patinig_3">Ang /o/ o /u/ sa Baybayin ay bigkas-Tagalog gaya sa tunog ng madiin na \"u\" o malambot na \"o\" ng alpabetong Tagalog. Hindi ito bigkas-Ingles na \"yu\" gaya sa titik \"u\" sa alpabeto, o kaya sa tunog \"oh\" ng titik \"o\" ng wikang Ingles. Ito ang pinakamadaling makilala na patinig.</string>
+
+    <!--yunit 2 quiz-->
+
+    <!--question 1-->
+    <string name="yunit2_question1">Ano ang mga patinig sa Baybayin?</string>
+    <string name="yunit2_q1_choice1">A, E, I</string>
+    <string name="yunit2_q1_choice2">A, I, U</string> <!--answer-->
+    <string name="yunit2_q1_choice3">A, ba, ka</string>
+
+    <!--question 2-->
+    <string name="yunit2_question2">Ano ang pinakamadaling makilala na patinig sa Baybayin?</string>
+    <string name="yunit2_q2_choice1">I</string>
+    <string name="yunit2_q2_choice2">O</string> <!--answer-->
+    <string name="yunit2_q2_choice3">A</string>
+
+    <!--question 3-->
+    <string name="yunit2_question3">Alin sa mga ito ang may tunog na /e/ o /i/?</string>
+    <string name="yunit2_q3_choice1">O</string>
+    <string name="yunit2_q3_choice2">ay</string>
+    <string name="yunit2_q3_choice3">I</string> <!--answer-->
+
+    <!--question 4-->
+    <string name="yunit2_question4">Anong Baybayin na titik ang kumakatawan sa patinig /o/ o /u/?</string>
+    <string name="yunit2_q4_choice1">Titik "o"</string>
+    <string name="yunit2_q4_choice2">Titik "u"</string><!--answer-->
+    <string name="yunit2_q4_choice3">Titik "e"</string>
+
+    <!--question 5-->
+    <string name="yunit2_question5">Paano itinuturing ang bigkas ng patinig /e/ o /i/ sa Baybayin?</string>
+    <string name="yunit2_q5_choice1">Bigkas-Tagalog gaya ng "ay" sa Ingles</string>
+    <string name="yunit2_q5_choice2">Bigkas-Tagalog gaya ng malambot na "e" sa Tagalog</string><!--answer-->
+    <string name="yunit2_q5_choice3">Bigkas-Ingles gaya ng "i" sa alpabetong Tagalog</string>
+
+    <!--    Yunit 3 intro-->
+    <string name="yunit3_intro_1">Ang katinig sa Baybayin ay mga simbolong ginagamit upang tukuyin ang tunog ng mga katinig o consonant sa mga salita.</string>
+    <string name="yunit3_intro_2">Sa Baybayin, mayroon itong 14 na katinig: /ba/, /ka/, /da/ra/, /ga/, /ha/, /la/, /ma/, /na/, /nga/, /pa/, /sa/, /ta/, /wa/, at /ya/.</string>
+    <string name="yunit3_intro_3">Ang mga katinig na ito ay karaniwang nakasulat na magkakasunod sa isang pantig upang makabuo ng mga salita.</string>
+    <string name="yunit3_intro_4">Tandaan, ang 14 na katinig ay laging may kasamang patinig na "A" dahil ang Baybayin ay isang abugida. Iba ito sa alpabetong Filipino na isinusulat ang mga titik na B, K, D, G, H, L, M, N, NG, P, S, T, W, at Y.</string>
+
+    <!--Yunit 3 Ba-ka-->
+    <string name="yunit3_baka_1">Sa aralin na ito, matatalakay ang isa sa mga katinig sa Baybayin, ang /ba/ at /ka/.</string>
+    <string name="yunit3_baka_2">Ang katinig na /ba/ sa Baybayin ay ang unang katinig sa abakadang Filipino. Ito ay katulad ng katinig na "B" sa Latinong abakada.</string>
+    <string name="yunit3_baka_3">Narito ang isang halimbawa ng mga salitang naglalaman ng katinig na /ba/ sa Baybayin:</string>
+    <string name="yunit3_baka_4">Kung ating babalikan ang nakaraang aralin na natalakay tungkol sa mga patinig, ano sa tingin mo ang huling titik?</string>
+    <string name="yunit3_baka_5">Tama! Ito ay ang patinig na /i/ o /e/. Ang halimbawa na nasa itaas ay maaaring mabasa na "babai" o "babae" depende sa tawag ng bawat indibidwal sa patinig na /i/ o /e/.</string>
+    <string name="yunit3_baka_6">Ang susunod na tatalakayin ay ang katinig na /ka/. Mangyaring pindutin ang button upang magpatuloy sa susunod na bahagi ng paksa.</string>
+    <string name="yunit3_baka_7">Ang pangalawang parte ng paksang ito ay itatalakay ang katinig na /ka/.</string>
+    <string name="yunit3_baka_8">Upang madali itong matandaan, maaari nating ihalintulad nito sa katinig na “K” sa Latinong abakada. Narito ang paraan kung paano natin ito maikukumpara sa titik na "K".</string>
+    <string name="yunit3_baka_9">Narito ang isang halimbawa ng mga salitang naglalaman ng katinig na /ka/ sa Baybayin:</string>
+    <string name="yunit3_baka_10">Ang halimbawa na nasa itaas ay mababasa na "baka”</string>
+    <string name="yunit3_baka_11">Kasama sa araling ito ang pagtalakay sa mga kudlit.</string>
+    <string name="yunit3_baka_12">Ang mga kudlit ay mga marka upang ipahayag ang iba’t ibang tunog ng mga titik. Mangyaring tignan ang mga kudlit na nasa ibaba.</string>
+    <string name="yunit3_baka_13">Ang unang kudlit sa baybayin ay ang kudlit e/i. Sa katinig na /ba/, kapag may bilog sa itaas, ito ay mababago ang tunog sa /be/ o /bi/.</string>
+    <string name="yunit3_baka_14">Kudlit na bilog sa ibaba ng katinig ay nagbibigay ng tunog na o/u. Halimbawa, /ba/ ay magiging /bo/ o /bu/ kapag ginamitan ng kudlit na o/u.</string>
+    <string name="yunit3_baka_15">Ang pangatlong kudlit sa Baybayin, tinatawag na "pamudpod" o "pamudpod na pakpak," ay ginagamit upang alisin ang patinig sa katinig, tulad ng /ba/ na nagiging /b/ na lang.</string>
+    <string name="yunit3_baka_16">Bilang iyong sariling pagsusulit, mangyaring subukang gamitin ang katinig na /ka/ na may mga kudlit.</string>
+
+    <!--Yunit 3 quiz 1-->
+    <!--Question1-->
+    <string name="yunit3_quiz1_question1">Pang ilan sa Baybayin ang katinig na Ba?</string>
+    <string name="yunit3_quiz1_q1_choice1">pang-lima</string>
+    <string name="yunit3_quiz1_q1_choice2">pang-una</string>
+    <string name="yunit3_quiz1_q1_choice3">pang-apat</string>
+
+    <!--Question2-->
+    <string name="yunit3_quiz1_question2">Ano ang pagkakatulad ng katinig na Ba sa Latinong abakada?</string>
+    <string name="yunit3_quiz1_q2_choice1">V</string>
+    <string name="yunit3_quiz1_q2_choice2">B</string>
+    <string name="yunit3_quiz1_q2_choice3">D</string>
+
+    <!--Question3-->
+    <string name="yunit3_quiz1_question3">Saan maaring ihalintulad ang katinig na /ka/ sa Latinong abakada?</string>
+    <string name="yunit3_quiz1_q3_choice1">Ka</string>
+    <string name="yunit3_quiz1_q3_choice2">Q</string>
+    <string name="yunit3_quiz1_q3_choice3">K</string>
+
+    <!--Question4-->
+    <string name="yunit3_quiz1_question4">Kudlit na bilog sa ibaba ng katinig na /ba/ ay nagbibigay ng tunog na ___?</string>
+    <string name="yunit3_quiz1_q4_choice1">e/i</string>
+    <string name="yunit3_quiz1_q4_choice2">o/u</string>
+    <string name="yunit3_quiz1_q4_choice3">b</string>
+
+    <!--Question5-->
+    <string name="yunit3_quiz1_question5">Ano ang tawag sa pamudpod na kudlit sa Baybayin?</string>
+    <string name="yunit3_quiz1_q5_choice1">bo/bu</string>
+    <string name="yunit3_quiz1_q5_choice2">b</string>
+    <string name="yunit3_quiz1_q5_choice3">be/bi</string>
+
+    <!--Yunit 3 Daga-->
+    <string name="yunit3_daga_1">Sa aralin na ito, matatalakay ang isa sa mga katinig sa Baybayin, ang /da/ at /ga/.</string>
+    <string name="yunit3_daga_2">Ang katinig na /da/ ay isang titik na kumakatawan sa tunog ng /d/. Upang madaling matandaan ang paggamit ng katinig na ito, isipin pagkakahalintulad nito sa Latinong abakada sa pagsulat.</string>
+    <string name="yunit3_daga_3">Isang halimbawa ng mga salitang naglalaman ng katinig na /da/ sa Baybayin ay:</string>
+    <string name="yunit3_daga_4">Ano sa tingin mo ang salitang nasa itaas? Kung ang sagot mo ay "daga", ikaw ay tama!</string>
+    <string name="yunit3_daga_5">Ang susunod na tatalakayin ay ang katinig na /ga/. Mangyaring pindutin ang button upang magpatuloy sa susunod na bahagi ng paksa.</string>
+    <string name="yunit3_daga_6">Ang pangalawang parte ng paksang ito ay itatalakay ang katinig na /ga/.</string>
+    <string name="yunit3_daga_7">Upang madali itong matandaan, maaari nating ihalintulad nito sa katinig na “G” sa Latinong abakada. Narito ang paraan kung paano natin ito maikukumpara sa titik na "G".</string>
+    <string name="yunit3_daga_8">Narito ang isang halimbawa ng mga salitang naglalaman ng katinig na /ga/ sa Baybayin:</string>
+    <string name="yunit3_daga_9">Sa iyong palagay, ano ang pagkakabasa mo sa salitang nasa itaas? Kung ang iyong sagot ay “gabi”, tama ka!</string>
+    <string name="yunit3_daga_10">Heto ang mga katinig na /da/ at /ga/ na mayroong mga kudlit.</string>
+
+
+    <!--Yunit 3 Quiz 2-->
+    <!--Question 1-->
+    <string name="yunit3_quiz2_question1">Ano ang kahulugan ng katinig na /da/ sa Baybayin?</string>
+    <string name="yunit3_quiz2_q1_choice1">Tunog ng /d/</string>
+    <string name="yunit3_quiz2_q1_choice2">Tunog ng /t/</string>
+    <string name="yunit3_quiz2_q1_choice3">Tunog ng /r/</string>
+
+    <!--Question 2-->
+    <string name="yunit3_quiz2_question2">Ano ang kahalintulad ng katinig na /da/ sa Latinong abakada?</string>
+    <string name="yunit3_quiz2_q2_choice1">D</string>
+    <string name="yunit3_quiz2_q2_choice2">B</string>
+    <string name="yunit3_quiz2_q2_choice3">T</string>
+
+    <!--Question 3-->
+    <string name="yunit3_quiz2_question3">Alin sa mga salitang ito ang naglalaman ng katinig na /da/ sa Baybayin?</string>
+    <string name="yunit3_quiz2_q3_choice1">"Baga"</string>
+    <string name="yunit3_quiz2_q3_choice2">"Sapa"</string>
+    <string name="yunit3_quiz2_q3_choice3">"Lasa"</string>
+
+    <!--Question 4-->
+    <string name="yunit3_quiz2_question4">Ano ang kahulugan ng katinig na /ga/ sa Baybayin?</string>
+    <string name="yunit3_quiz2_q4_choice1">Tunog ng /g/</string>
+    <string name="yunit3_quiz2_q4_choice2">Tunog ng /k/</string>
+    <string name="yunit3_quiz2_q4_choice3">Tunog ng /h/</string>
+
+    <!--Question 3-->
+    <string name="yunit3_quiz2_question5">Ano ang kahalintulad ng katinig na /ga/ sa Latinong abakada?</string>
+    <string name="yunit3_quiz2_q5_choice1">G</string>
+    <string name="yunit3_quiz2_q5_choice2">K</string>
+    <string name="yunit3_quiz2_q5_choice3">H</string>
+
+    <!--yunit 3 Hala-->
+    <string name="yunit3_hala_1">Sa aralin na ito, matatalakay ang isa sa mga katinig sa Baybayin, ang /ha/ at /la/.</string>
+    <string name="yunit3_hala_2">Madali lamang tandaan ang katinig na /ha/ ng Baybayin dahil malapit ang halintulad nito sa Latinong abakada na "H"</string>
+    <string name="yunit3_hala_3">Narito ang isang halimbawa ng mga salitang naglalaman ng katinig na /ha/ sa Baybayin:</string>
+    <string name="yunit3_hala_4">Subukan mong basahin ang halimbawa. Ano sa tingin mo ang basa dito? Tama! Ito ay "haligi". Mababasa ang pangalawang titik bilang /li/ habang ang kasunod nito ay /gi/. Kaya ang salitang "haligi" ay mababasa bilang /ha-li-gi/.</string>
+    <string name="yunit3_hala_5">Ang susunod na tatalakayin ay ang katinig na /la/. Mangyaring pindutin ang button upang magpatuloy sa susunod na bahagi ng paksa.</string>
+    <string name="yunit3_hala_6">Ang katinig na /la/ ay maaaring ipakita sa Baybayin at sa Latinong abakada sa sulat. Narito ang pagkakahalintulad ng mga simbolo at tunog na ginagamit para sa katinig na /la/ sa dalawang sistema ng pagsusulat</string>
+    <string name="yunit3_hala_7">Ang isang halimbawa ng mga salitang naglalaman ng katinig na /la/ sa Baybayin ay:</string>
+    <string name="yunit3_hala_8">Sa iyong palagay, ano ang pagkakabasa mo sa salitang nasa itaas? Kung ang iyong sagot ay "lagablab", tama ka!</string>
+    <string name="yunit3_hala_9">Heto ang mga katinig na /ha/ at /la/ na mayroong mga kudlit.</string>
+
+    <!--Yunit 3 Hala Quiz-->
+    <!--Question 1-->
+    <string name="yunit3_quiz3_question1">Ano ang katinig na malapit sa titik "H" sa Baybayin?</string>
+    <string name="yunit3_quiz3_q1_choice1">B</string>
+    <string name="yunit3_quiz3_q1_choice2">L</string>
+    <string name="yunit3_quiz3_q1_choice3">M</string>
+
+    <!--Question 1-->
+    <string name="yunit3_quiz3_question2">Ano ang pagkakabasa ng salitang "haligi" sa Baybayin?</string>
+    <string name="yunit3_quiz3_q2_choice1">ha-li-gi</string>
+    <string name="yunit3_quiz3_q2_choice2">ha-la-gi</string>
+    <string name="yunit3_quiz3_q2_choice3">ha-lu-gi</string>
+
+    <!--Question 1-->
+    <string name="yunit3_quiz3_question3">Anong katinig ang maaring ipakita sa Baybayin at sa Latinong abakada sa sulat?</string>
+    <string name="yunit3_quiz3_q3_choice1">Ka</string>
+    <string name="yunit3_quiz3_q3_choice2">La</string>
+    <string name="yunit3_quiz3_q3_choice3">Ma</string>
+
+    <!--Question 1-->
+    <string name="yunit3_quiz3_question4"> Ano ang basa sa salitang "lagablab" sa Baybayin?</string>
+    <string name="yunit3_quiz3_q4_choice1"> la-ga-ba-la-ba</string>
+    <string name="yunit3_quiz3_q4_choice2">la-ga-bla-bla</string>
+    <string name="yunit3_quiz3_q4_choice3">la-ga-bla-b</string>
+
+    <!--Question 5-->
+    <string name="yunit3_quiz3_question5">Ano ang kahalintulad ng katinig /ha/ ng Baybayin sa Latinong abakada?</string>
+    <string name="yunit3_quiz3_q5_choice1">B</string>
+    <string name="yunit3_quiz3_q5_choice2">H</string>
+    <string name="yunit3_quiz3_q5_choice3">K</string>
+
+    <!--Yunit 3 Lesson Mana-->
+    <string name="yunit3_mana_1">Sa aralin na ito, matatalakay ang isa sa mga katinig sa Baybayin, ang /ma/ at /na/.</string>
+    <string name="yunit3_mana_2">Ang katinig na /ma/ ay mayroong pagkakahalintulad sa pagitan ng Baybayin at titik ng Latinong abakada na "M" sa pagsulat. Maaari din itong maihahalintulad sa nakabaliktad na "A".</string>
+    <string name="yunit3_mana_3">Isang halimbawa ng mga salitang naglalaman ng katinig na /ma/ sa Baybayin ay:</string>
+    <string name="yunit3_mana_4">Subukan mong basahin ang halimbawa. Ano sa tingin mo ang basa dito? Ito ay "magaan"</string>
+    <string name="yunit3_mana_5">Ang susunod na tatalakayin ay ang katinig na /na/. Mangyaring pindutin ang button upang magpatuloy sa susunod na bahagi ng paksa.</string>
+    <string name="yunit3_mana_6">Sa baybayin, ang katinig na /na/ ay may pagkakahawig sa titik "M" ng Latinong abakada sa anyo nito. Gayunpaman, ito ay tumutukoy pa rin sa katinig na /na/.</string>
+    <string name="yunit3_mana_7">Narito ang pagkakahalintulad ng dalawang sistema ng pagsusulat.</string>
+    <string name="yunit3_mana_8">Ang isang halimbawa ng mga salitang naglalaman ng katinig na /na/ sa Baybayin ay:</string>
+    <string name="yunit3_mana_9">Kung babasahin ang halimbawang ibinigay sa itaas, ito ay "nabigo"</string>
+    <string name="yunit3_mana_10">Heto ang mga katinig na /ma/ at /na/ na mayroong mga kudlit.</string>
+
+    <!--Yunit 3 Mana Quiz-->
+    <!--Question 1-->
+    <string name="yunit3_quiz4_question1">Ano ang katinig sa Baybayin na may pagkakahalintulad sa titik "M" ng Latinong abakada?</string>
+    <string name="yunit3_quiz4_q1_choice1">Pa</string>
+    <string name="yunit3_quiz4_q1_choice2">Ka</string>
+    <string name="yunit3_quiz4_q1_choice3">Ma</string>
+
+    <!--Question 2-->
+    <string name="yunit3_quiz4_question2">Ano ang kahulugan ng Baybayin na katinig na /ma/?</string>
+    <string name="yunit3_quiz4_q2_choice1">Mayaman</string>
+    <string name="yunit3_quiz4_q2_choice2">Malungkot</string>
+    <string name="yunit3_quiz4_q2_choice3">Magaan</string>
+
+    <!--Question 3-->
+    <string name="yunit3_quiz4_question3">Ano ang katinig sa Baybayin na may pagkakahawig sa titik "M" ng Latinong abakada ngunit tumutukoy sa tunog ng /na/?</string>
+    <string name="yunit3_quiz4_q3_choice1">Na</string>
+    <string name="yunit3_quiz4_q3_choice2">Ma</string>
+    <string name="yunit3_quiz4_q3_choice3">Ka</string>
+
+    <!--Question 4-->
+    <string name="yunit3_quiz4_question4">Ano ang halimbawa ng salitang naglalaman ng katinig na /na/ sa Baybayin?</string>
+    <string name="yunit3_quiz4_q4_choice1">Namamalakaya</string>
+    <string name="yunit3_quiz4_q4_choice2">Nagmamadali</string>
+    <string name="yunit3_quiz4_q4_choice3">Nagsasalita</string>
+
+    <!--Question 5-->
+    <string name="yunit3_quiz4_question5">Ano ang bigkas ng katinig /na/ sa Baybayin?</string>
+    <string name="yunit3_quiz4_q5_choice1">Bigkas-Tagalog gaya ng "na" sa Ingles</string>
+    <string name="yunit3_quiz4_q5_choice2">Bigkas-Tagalog gaya ng malambot na "n" sa Tagalog</string>
+    <string name="yunit3_quiz4_q5_choice3">Bigkas-Ingles gaya ng "na" sa alpabetong Tagalog</string>
+
+    <!--Yunit 3 Lesson Nga Pa-->
+    <string name="yunit3_ngapa_1">Sa aralin na ito, matatalakay ang isa sa mga katinig sa Baybayin, ang /nga/ at pna/.</string>
+    <string name="yunit3_ngapa_2">Ang katinig na /nga/ ay katumbas ng titik "ng" sa Filipino abakada. Dito makikita ang pagkahalintulad ng dalawang sistemang pagsusulat.</string>
+    <string name="yunit3_ngapa_3">Narito ang halimbawa ng mga salitang naglalaman ng katinig na /nga/ sa Baybayin:</string>
+    <string name="yunit3_ngapa_4">Subukan mong basahin ang halimbawa. Ano sa tingin mo ang basa dito? Kung ang sagot mo ay "ngalan", ikaw ay tama!</string>
+    <string name="yunit3_ngapa_5">Ang susunod na tatalakayin ay ang katinig na /pa/. Mangyaring pindutin ang button upang magpatuloy sa susunod na bahagi ng paksa.</string>
+    <string name="yunit3_ngapa_6">Ang katinig na /pa/ sa baybayin ay kinakatawan ng makikitang karakter sa itaas.</string>
+    <string name="yunit3_ngapa_7">Sa paghahambing sa Latinong abakada, maaaring gamitin ang titik "F" bilang isang tanda o gabay upang madaling makilala ang /pa/.</string>
+    <string name="yunit3_ngapa_8">Ang isang halimbawa ng mga salitang naglalaman ng katinig na /pa/ sa Baybayin ay:</string>
+    <string name="yunit3_ngapa_9">Kung babasahin ang halimbawang ibinigay sa itaas, ito ay "panaginip</string>
+    <string name="yunit3_ngapa_10">Heto ang mga katinig na /nga/ at /pa/ na mayroong mga kudlit.</string>
+
+    <!--Yunit 3 Lesson Nga Pa Quiz-->
+    <!--Question 1-->
+    <string name="yunit3_quiz5_question1">Ano ang katinig sa Baybayin na katumbas ng titik "ng" sa Filipino abakada?</string>
+    <string name="yunit3_quiz5_q1_choice1">/ma/</string>
+    <string name="yunit3_quiz5_q1_choice2">/nga/</string>
+    <string name="yunit3_quiz5_q1_choice3">/ka/</string>
+
+    <!--Question 1-->
+    <string name="yunit3_quiz5_question2">Anong titik sa Baybayin ang kinakatawan ng katinig /pa/ na katulad ng "F" sa Latinong abakada?</string>
+    <string name="yunit3_quiz5_q2_choice1">Titik "P"</string>
+    <string name="yunit3_quiz5_q2_choice2">Titik "R"</string>
+    <string name="yunit3_quiz5_q2_choice3">Titik "S"</string>
+
+    <!--Question 1-->
+    <string name="yunit3_quiz5_question3">Ano ang maaaring gamitin na gabay para madaling makilala ang katinig /pa/ sa Baybayin?</string>
+    <string name="yunit3_quiz5_q3_choice1">P</string>
+    <string name="yunit3_quiz5_q3_choice2">F</string>
+    <string name="yunit3_quiz5_q3_choice3">R</string>
+
+    <!--Question 1-->
+    <string name="yunit3_quiz5_question4">Ano ang basa ng salitang "panaginip" sa Baybayin?</string>
+    <string name="yunit3_quiz5_q4_choice1">/pa-na-gi-ni-pa/</string>
+    <string name="yunit3_quiz5_q4_choice2">/pa-na-gi-ni-pi/</string>
+    <string name="yunit3_quiz5_q4_choice3">/pa-na-gi-ni-pi-pa/</string>
+
+    <!--Question 5-->
+    <string name="yunit3_quiz5_question5">Ano ang bigkas ng katinig /pa/ sa Baybayin?</string>
+    <string name="yunit3_quiz5_q5_choice1">Bigkas-Tagalog gaya ng "ba" sa alpabetong Tagalog</string>
+    <string name="yunit3_quiz5_q5_choice2">Bigkas-Tagalog gaya ng malambot na "pa" sa Tagalog</string>
+    <string name="yunit3_quiz5_q5_choice3">Bigkas-Ingles gaya ng "fa" sa alpabetong Filipino</string>
+
+    <!--Yunit 3 Lesson Ra Sa-->
+    <string name="yunit3_rasa_1">Sa aralin na ito, matatalakay ang isa sa mga katinig sa Baybayin, ang /ra/ at /sa/.</string>
+    <string name="yunit3_rasa_2">Ang katinig na /ra/ ay nalalapit lang sa katinig na /da/ sa pagsulat nito. Ang pagkakaiba lang ng dalawa ay sa /ra/ ay may guhit ito sa ibabang bahagi.</string>
+    <string name="yunit3_rasa_3">Mangyaring isipin na pinagsama ito ng dalawang katinig na /da/ at /pa/.</string>
+    <string name="yunit3_rasa_4">Narito ang halimbawa ng mga salitang naglalaman ng katinig na /ra/ sa Baybayin:</string>
+    <string name="yunit3_rasa_5">Subukan mong basahin ang halimbawa. Ano sa tingin mo ang basa dito? Kung ang sagot mo ay "rosas", ikaw ay tama!</string>
+    <string name="yunit3_rasa_6">Ang susunod na tatalakayin ay ang katinig na /sa/. Mangyaring pindutin ang button upang magpatuloy sa susunod na bahagi ng paksa.</string>
+    <string name="yunit3_rasa_7">Sa Baybayin, mayroong pagkakahawig ang katinig na /na/ sa titik na padaloy o naka-cursive na "S" ng Latinong abakada.</string>
+    <string name="yunit3_rasa_8">Ang pagkakahawig na ito ay ipapakita sa paghahalintulad ng dalawang sistema ng pagsusulat sa ibaba.</string>
+    <string name="yunit3_rasa_9">Ang isang halimbawa ng mga salitang naglalaman ng katinig na /sa/ sa Baybayin ay:</string>
+    <string name="yunit3_rasa_10">Kung babasahin ang halimbawang ibinigay sa itaas, ito ay "sandali</string>
+    <string name="yunit3_rasa_11">Heto ang mga katinig na /ra/ at /sa/ na mayroong mga kudlit.</string>
+
+    <!--Yunit 3 Ra Sa Quiz-->
+    <!--Question 1-->
+    <string name="yunit3_quiz6_question1">Ano ang katinig na malapit sa /da/ sa Baybayin?</string>
+    <string name="yunit3_quiz6_q1_choice1">La</string>
+    <string name="yunit3_quiz6_q1_choice2">Ra</string>
+    <string name="yunit3_quiz6_q1_choice3">Sa</string>
+
+    <!--Question 2-->
+    <string name="yunit3_quiz6_question2">Ano ang pagkakaiba ng /ra/ sa /da/ sa Baybayin?</string>
+    <string name="yunit3_quiz6_q2_choice1">May guhit sa ibaba ang /ra/</string>
+    <string name="yunit3_quiz6_q2_choice2">May guhit sa itaas ang /ra/</string>
+    <string name="yunit3_quiz6_q2_choice3">Wala itong guhit</string>
+
+    <!--Question 3-->
+    <string name="yunit3_quiz6_question3">Ano ang katumbas ng katinig na /sa/ sa Latinong abakada?</string>
+    <string name="yunit3_quiz6_q3_choice1">R</string>
+    <string name="yunit3_quiz6_q3_choice2">S</string>
+    <string name="yunit3_quiz6_q3_choice3">N</string>
+
+    <!--Question 4-->
+    <string name="yunit3_quiz6_question4">Ano ang halimbawa ng salitang naglalaman ng katinig na /ra/ sa Baybayin?</string>
+    <string name="yunit3_quiz6_q4_choice1">Salamin</string>
+    <string name="yunit3_quiz6_q4_choice2">Rosas</string>
+    <string name="yunit3_quiz6_q4_choice3">Puno</string>
+
+    <!--Question 5-->
+    <string name="yunit3_quiz6_question5">Ano ang kahalagahan ng guhit sa ibaba ng katinig na /ra/ sa Baybayin?</string>
+    <string name="yunit3_quiz6_q5_choice1">Ito ay nagpapakita ng pagkakaiba sa pagbigkas mula sa katinig na /da/.</string>
+    <string name="yunit3_quiz6_q5_choice2">Ito ay nagbibigay kulay sa titik.</string>
+    <string name="yunit3_quiz6_q5_choice3">Ito ay nagpapalakas ng kahulugan ng salita.</string>
+
+    <!--Yunit 3 Lesson TaWa-->
+    <string name="yunit3_tawa_1">Sa aralin na ito, matatalakay ang isa sa mga katinig sa Baybayin, ang /ta/ at /wa/.</string>
+    <string name="yunit3_tawa_2">Ang katinig na /ta/ ay katumbas ng titik "T" sa Latinong abakada. Dito makikita ang pagkahalintulad ng dalawang sistemang pagsusulat.</string>
+    <string name="yunit3_tawa_3">Isang halimbawa ng mga salitang naglalaman ng katinig na /ta/ sa Baybayin:</string>
+    <string name="yunit3_tawa_4">Subukan mong basahin ang halimbawa. Ano sa tingin mo ang basa dito? Kung ang sagot mo ay "tahanan", ikaw ay tama</string>
+    <string name="yunit3_tawa_5">Ang susunod na tatalakayin ay ang katinig na /wa/. Mangyaring pindutin ang button upang magpatuloy sa susunod na bahagi ng paksa!</string>
+    <string name="yunit3_tawa_6">Sa Baybayin, mayroong pagkakahawig ang katinig na /wa/ sa titik na "W" ng Latinong abakada. Ang kailangan lang dito ay dagdagan ng linya ang gitna ng titik ng Baybayin.</string>
+    <string name="yunit3_tawa_7">Ang pagkakahawig na ito ay ipapakita sa ibaba.</string>
+    <string name="yunit3_tawa_8">Ang isang halimbawa ng mga salitang naglalaman ng katinig na /wa/ sa Baybayin ay:</string>
+    <string name="yunit3_tawa_9">Kung babasahin ang halimbawang ibinigay sa itaas, ito ay "wagas"</string>
+    <string name="yunit3_tawa_10">Heto ang mga katinig na /ta/ at /wa/ na mayroong mga kudlit.</string>
+
+    <!--YUnit 3 Quiz TaWa-->
+    <!--Question 1-->
+    <string name="yunit3_quiz7_question1">Ano ang katinig na katumbas ng titik "T" sa Latinong abakada sa Baybayin?</string>
+    <string name="yunit3_quiz7_q1_choice1">/pa/</string>
+    <string name="yunit3_quiz7_q1_choice2">/ta/</string>
+    <string name="yunit3_quiz7_q1_choice3">/ka/</string>
+
+    <!--Question 1-->
+    <string name="yunit3_quiz7_question2">Ano ang tamang pagbasa sa Baybayin ng salitang "tahanan"?</string>
+    <string name="yunit3_quiz7_q2_choice1">/na-ha-ta/</string>
+    <string name="yunit3_quiz7_q2_choice2">/ta-ha-na-na/</string>
+    <string name="yunit3_quiz7_q2_choice3">/ta-ha-na/</string>
+
+    <!--Question 1-->
+    <string name="yunit3_quiz7_question3">Ano ang tamang pagpapakilala ng katinig na /wa/ sa Baybayin?</string>
+    <string name="yunit3_quiz7_q3_choice1">Ang katinig na /wa/ ay may hugis tulad ng "Y" sa Latinong abakada.</string>
+    <string name="yunit3_quiz7_q3_choice2">Ang katinig na /wa/ ay may dagdag na linya sa gitna ng titik sa Baybayin.</string>
+    <string name="yunit3_quiz7_q3_choice3">Ang katinig na /wa/ ay may hugis tulad ng "M" sa Latinong abakada.</string>
+
+    <!--Question 1-->
+    <string name="yunit3_quiz7_question4">Ano ang Baybayin na katumbas ng patinig /o/ o /u/?</string>
+    <string name="yunit3_quiz7_q4_choice1">Titik "o"</string>
+    <string name="yunit3_quiz7_q4_choice2">Titik "u"</string>
+    <string name="yunit3_quiz7_q4_choice3">Titik "e"</string>
+
+    <!--Question 1-->
+    <string name="yunit3_quiz7_question5">Anong bigkas ang karaniwang ginagamit para sa patinig /e/ o /i/ sa Baybayin?</string>
+    <string name="yunit3_quiz7_q5_choice1">Bigkas-Tagalog gaya ng "ay" sa Ingles</string>
+    <string name="yunit3_quiz7_q5_choice2">Bigkas-Tagalog gaya ng malambot na "e" sa Tagalog</string>
+    <string name="yunit3_quiz7_q5_choice3">Bigkas-Ingles gaya ng "i" sa alpabetong Tagalog</string>
+
+    <!--Yunit 3 Lesson Ya-->
+    <string name="yunit3_ya_1">Sa aralin na ito, matatalakay ang isa sa mga katinig sa Baybayin, ang /ya/.</string>
+    <string name="yunit3_ya_2">Ang katinig na /ya/ ay katumbas ng titik "Y" sa Latinong abakada. Dito makikita ang pagkahalintulad ng dalawang sistemang pagsusulat.</string>
+    <string name="yunit3_ya_3">Ang isang halimbawa ng mga salitang naglalaman ng katinig na /ya/ sa Baybayin ay:</string>
+    <string name="yunit3_ya_4">Subukan mong basahin ang halimbawa. Ano sa tingin mo ang basa dito? Kung ang sagot mo ay "yugto", ikaw ay tama!</string>
+    <string name="yunit3_ya_5">Heto ang mga katinig na /ya/ na mayroong mga kudlit.</string>
+
+    <!--Yunit3 Quiz Ya-->
+    <!--Question 1-->
+    <string name="yunit3_quiz8_question1">Ano ang tawag sa may kudlit na bilog sa taas ng katinig na /ya/?</string>
+    <string name="yunit3_quiz8_q1_choice1">ye o yi</string>
+    <string name="yunit3_quiz8_q1_choice3">y</string>
+    <string name="yunit3_quiz8_q1_choice2">yo o yu</string>
+
+    <!--Question 1-->
+    <string name="yunit3_quiz8_question2">Ano ang kasing tunog ng katinig na /ya/ sa Baybayin sa Latinong abakada?</string>
+    <string name="yunit3_quiz8_q2_choice1">T</string>
+    <string name="yunit3_quiz8_q2_choice2">Y</string>
+    <string name="yunit3_quiz8_q2_choice3">K</string>
+
+    <!--Question 1-->
+    <string name="yunit3_quiz8_question3">Alin sa mga sumusunod na salita ang naglalaman ng katinig na /ya/ sa Baybayin?</string>
+    <string name="yunit3_quiz8_q3_choice1">Yaman</string>
+    <string name="yunit3_quiz8_q3_choice3">Bansa</string>
+    <string name="yunit3_quiz8_q3_choice2">Bayan</string>
+
+    <!--Question 1-->
+    <string name="yunit3_quiz8_question4">Ano ang tawag sa may kudlit na bilog sa ibaba ng katinig na /ya/?</string>
+    <string name="yunit3_quiz8_q4_choice1">y</string>
+    <string name="yunit3_quiz8_q4_choice2">yo o yu</string>
+    <string name="yunit3_quiz8_q4_choice3">ye o yi</string>
+
+    <!--Question 5-->
+    <string name="yunit3_quiz8_question5">Ano ang tawag sa may kudlit na ekis sa baba ng katinig na /ya/?</string>
+    <string name="yunit3_quiz8_q5_choice1">ye o yi</string>
+    <string name="yunit3_quiz8_q5_choice2">yo o yu</string>
+    <string name="yunit3_quiz8_q5_choice3">y</string>
+
+
+</resources>

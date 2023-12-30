@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_20sdp"
+    android:gravity="center">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/intro_container"
+        android:padding="@dimen/_10sdp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="Congratulations!"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:textColor="@color/blue"
+            android:fontFamily="@font/poppins_bold"/>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_120sdp"
+            android:src="@drawable/gif_congratualtions"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/_minus30sdp"
+            android:elevation="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="Binabati kita dahil natapos mo ang lahat ng pagsubok sa laro na ito!"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:textAllCaps="false"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/blue"
+            android:fontFamily="@font/poppins_medium"
+            android:justificationMode="inter_word"
+            android:layout_marginBottom="@dimen/_10sdp"/>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <Button
+                android:id="@+id/magpatuloyBtn"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@drawable/container_button_blue"
+                android:text="Magpatuloy"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppins_medium"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                />
+        </FrameLayout>
+
+    </LinearLayout>
+</RelativeLayout>
