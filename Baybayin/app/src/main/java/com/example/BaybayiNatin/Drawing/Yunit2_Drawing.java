@@ -12,6 +12,7 @@ import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.os.Handler;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -219,6 +220,15 @@ public class Yunit2_Drawing extends AppCompatActivity {
                 drawView.clearCanvas();
                 eraseButton.setBackgroundResource(R.color.pale_blue);
                 drawButton.setBackgroundResource(R.color.white);
+
+                Handler handler = new Handler();
+                handler.postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        drawButton.setBackgroundResource(R.color.pale_blue);
+                        eraseButton.setBackgroundResource(R.color.white);
+                    }
+                }, 100);
             }
         });
 
