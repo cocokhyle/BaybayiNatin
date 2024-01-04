@@ -94,7 +94,7 @@ public class Yunit3_Drawing extends AppCompatActivity {
     ImageView image;
     private Bitmap bitmap = null;
 
-    private static final String[] classNames = { "dara", "ga", "ha", "ka", "la", "ma", "na", "nga", "pa", "sa", "ta", "wa", "ya",}; // Replace with your class names
+    private static final String[] classNames = {"a", "ba", "dara", "ei", "ga", "ha", "ka", "la", "ma", "na", "nga", "ou", "pa", "sa", "ta", "wa", "ya",}; // Replace with your class names
 
 
     @Override

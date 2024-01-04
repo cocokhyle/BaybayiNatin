@@ -108,7 +108,7 @@ public class Yunit2_Drawing extends AppCompatActivity {
     Boolean checkEI = false;
     Boolean checkOU = false;
 
-    private static final String[] classNames = { "a", "ei", "ou",}; // Replace with your class names
+    private static final String[] classNames = {"a", "ba", "dara", "ei", "ga", "ha", "ka", "la", "ma", "na", "nga", "ou", "pa", "sa", "ta", "wa", "ya",}; // Replace with your class names
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -226,8 +226,6 @@ public class Yunit2_Drawing extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-
-
                 try {
 
 
@@ -280,8 +278,7 @@ public class Yunit2_Drawing extends AppCompatActivity {
                             //Edit mo nalng to based don sa UI
                             if (predictedClass.equals(groundTruthLabels[currentImageIndex])) {
                                 drawContainer.setBackgroundResource(R.drawable.container_drawing_green);
-                                result.setText("Tagumpay! Letrang '" + currentImage + "' ang iyong nasulat,\n" +
-                                        "Maaari ka nang magpatuloy sa susunod na patinig");
+                                result.setText("Tagumpay! Letrang '" + currentImage + "' ang iyong nasulat,\n" + "Maaari ka nang magpatuloy sa susunod na patinig");
 
                                 if (currentImage == "a") {
                                     editor.putInt(Letrang_NasulatA, 1);
