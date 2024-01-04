@@ -219,13 +219,11 @@ public class Yunit2_Drawing extends AppCompatActivity {
             public void onClick(View view) {
                 drawView.clearCanvas();
                 eraseButton.setBackgroundResource(R.color.pale_blue);
-                drawButton.setBackgroundResource(R.color.white);
 
                 Handler handler = new Handler();
                 handler.postDelayed(new Runnable() {
                     @Override
                     public void run() {
-                        drawButton.setBackgroundResource(R.color.pale_blue);
                         eraseButton.setBackgroundResource(R.color.white);
                     }
                 }, 100);
