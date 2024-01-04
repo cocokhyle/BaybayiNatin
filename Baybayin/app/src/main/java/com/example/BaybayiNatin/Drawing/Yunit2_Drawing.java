@@ -5,8 +5,6 @@ import static com.example.BaybayiNatin.Fragment.Profile.Letrang_NasulatA;
 import static com.example.BaybayiNatin.Fragment.Profile.Letrang_NasulatEI;
 import static com.example.BaybayiNatin.Fragment.Profile.Letrang_NasulatOU;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Bitmap;
@@ -22,6 +20,8 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.BaybayiNatin.Activity.MainActivity;
 import com.example.BaybayiNatin.R;
@@ -59,7 +59,7 @@ public class Yunit2_Drawing extends AppCompatActivity {
             R.drawable.baybayin_letter_a,
             R.drawable.baybayin_letter_ei,
             R.drawable.baybayin_letter_ou,
-            R.drawable.baybayin_letter_dara,
+           /* R.drawable.baybayin_letter_dara,
             R.drawable.baybayin_letter_ga,
             R.drawable.baybayin_letter_ha,
             R.drawable.baybayin_letter_ka,
@@ -71,7 +71,7 @@ public class Yunit2_Drawing extends AppCompatActivity {
             R.drawable.baybayin_letter_sa,
             R.drawable.baybayin_letter_ta,
             R.drawable.baybayin_letter_wa,
-            R.drawable.baybayin_letter_ya
+            R.drawable.baybayin_letter_ya*/
 
 
     };
@@ -108,7 +108,7 @@ public class Yunit2_Drawing extends AppCompatActivity {
     Boolean checkEI = false;
     Boolean checkOU = false;
 
-    private static final String[] classNames = {"a", "ba", "dara", "ei", "ga", "ha", "ka", "la", "ma", "na", "nga", "ou", "pa", "sa", "ta", "wa", "ya",}; // Replace with your class names
+    private static final String[] classNames = { "a", "ei", "ou",}; // Replace with your class names
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -216,7 +216,7 @@ public class Yunit2_Drawing extends AppCompatActivity {
         eraseButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                drawView.setErase(true);
+                drawView.clearCanvas();
                 eraseButton.setBackgroundResource(R.color.pale_blue);
                 drawButton.setBackgroundResource(R.color.white);
             }

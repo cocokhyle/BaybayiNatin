@@ -16,8 +16,6 @@ import static com.example.BaybayiNatin.Fragment.Profile.Letrang_Nasulatta;
 import static com.example.BaybayiNatin.Fragment.Profile.Letrang_Nasulatwa;
 import static com.example.BaybayiNatin.Fragment.Profile.Letrang_Nasulatya;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Bitmap;
@@ -34,8 +32,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.example.BaybayiNatin.Activity.MainActivity;
-import com.example.BaybayiNatin.Quiz.Yunit4_Identify_baybayin;
 import com.example.BaybayiNatin.R;
 import com.example.BaybayiNatin.databinding.Yunit3DrawingBinding;
 import com.example.BaybayiNatin.ml.Model;
@@ -95,7 +94,7 @@ public class Yunit3_Drawing extends AppCompatActivity {
     ImageView image;
     private Bitmap bitmap = null;
 
-    private static final String[] classNames = {"a", "ba", "dara", "ei", "ga", "ha", "ka", "la", "ma", "na", "nga", "ou", "pa", "sa", "ta", "wa", "ya",}; // Replace with your class names
+    private static final String[] classNames = { "dara", "ga", "ha", "ka", "la", "ma", "na", "nga", "pa", "sa", "ta", "wa", "ya",}; // Replace with your class names
 
 
     @Override
@@ -301,7 +300,7 @@ public class Yunit3_Drawing extends AppCompatActivity {
         drawButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                drawView.setErase(false);
+                drawView.clearCanvas();
                 drawButton.setBackgroundResource(R.color.pale_blue);
                 eraseButton.setBackgroundResource(R.color.white);
             }
@@ -309,7 +308,7 @@ public class Yunit3_Drawing extends AppCompatActivity {
         eraseButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                drawView.setErase(true);
+                drawView.clearCanvas();
                 eraseButton.setBackgroundResource(R.color.pale_blue);
                 drawButton.setBackgroundResource(R.color.white);
             }
